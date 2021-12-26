@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+     url("https://th.bing.com/th/id/R.bf8e1c9b587e5198a1a783c142bb4d24?rik=yCQXEECJNx9IdA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f59%2f4%2fxk5yAv.jpg&ehk=jkC8N52HE2BO%2flRR3um6gSMETlZOn%2fLge27rbjSX%2f5k%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    height: 100vh;
+    font-family: Dosis, sans-serif;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing:border-box ;
+
+}
+    
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+  
+}
+
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.navbar2{
+background-color:rgb(0, 0, 0);
+width: 97%;
+display:inline-block;
+font-size: 14px;
+line-height: 1.6;
+text-align: center;
+border-radius: 12px;
+margin-top: 20px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+.col2{
+    flex-basis: 50%;
+    margin-left: 170px;
+}
+
+@font-face{
+    font-family: letra;
+    src: url(letra2.ttf);
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+    font-family: letra;
+}
+
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.btn1{
+    width: 180px;
+    color:#000;
+    font-size: 12px;
+    padding: 12px 0;
+    border: 3px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: rgb(197, 187, 187);
+    color: black;
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/personajes.gif) ;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.card1{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/baile.gif) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.card2{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/campeones3.gif) ;
+    background-position: center;
+}
+
+.card3{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/creadores.gif) ;
+    background-position: center;
+    background-size: cover;
+}
+
+h5{
+    text-align: center;
+    color: rgb(126, 122, 122);
+    font-size: 15px;
+    font-family: 'Rock Salt';
+}
+
